@@ -1,0 +1,90 @@
+.bm-burger-button {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+  /* Botão de hambúrguer */
+  .bm-burger-button {
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    right: 30px; 
+    top: 25px;
+  }
+  
+  /* Cor/forma das barras do ícone de hambúrguer */
+  .bm-burger-bars {
+    background: white;
+  }
+  
+  /* Cor/forma das barras do ícone de hambúrguer ao passar o mouse */
+  .bm-burger-bars-hover {
+    background: red;
+  }
+  
+  /* Posição e tamanho do botão de cruz clicável */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Cor/forma do cruzamento do botão de fechar */
+  .bm-cross {
+    background: white;
+  }
+  
+  /*
+  Estilos do invólucro da barra lateral
+  Nota: Tenha cuidado ao modificar este elemento, pois pode quebrar as animações - você não deve precisar tocá-lo na maioria dos casos
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+  /* Estilos gerais da barra lateral */
+  .bm-menu {
+    background: black;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.30em;
+    border-right: solid 1px white;
+  }
+  
+  /* Forma de morph necessária com bolha ou elástico */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Invólucro para lista de itens */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  /* Item individual */
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Estilo de sobreposição */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Item individual estilizado */
+  .bm-item {
+    display: inline-block;
+    color: white;
+    margin-bottom: 10px;
+    text-align: left;
+    text-decoration: none;
+    transition: color 0.5s;
+    border-bottom: solid 1px red;
+  }
+  
+  /* Cor do item ao passar o mouse */
+  .bm-item:hover {
+    color: #ffffff;
+  }
+  }

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto:wght@300;400;700&display=swap');
+#main-conteiner{
+    height: 500px;
+    width:25%;
+    background: none;
+    display: flex;
+   
+    margin-top: 3%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 32px;
+     
+}
+
+
+#body{
+    background-image: url('../../assets/batmanfundo.jpg');
+    background-size: cover;
+    padding: 65px;
+}
+
+#h1{
+    color: white;
+}
+#tittle{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+input, textarea{
+    width: 400px;
+    background-color: #000;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    display: block;
+    border: 2px solid #D21617;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+}
+
+input{
+    height: 50px;
+}
+textarea{
+    width: 100%;
+}
+
+input, textarea:focus{
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder{
+    color: red;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.button{
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    outline: none;
+    color: black;
+    padding: 12px 20px;
+    margin: 23px;
+    margin-right: 14px;
+    border-radius: 20px;
+    background: darkred;
+    cursor: pointer;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 85%;
+    height: 8%;
+}
+
+@media(max-width:768px) {
+    input, textarea, button {
+      width: 100%;
+    }
+    #main-conteiner{
+        width:100%;
+        background: none;
+    }
+  
+  #body {
+     background-position: 65%;
+     margin: none;
+     
+    } 
+}
