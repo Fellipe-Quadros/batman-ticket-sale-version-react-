@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "./static/css/main.1cdcb17d.css",
+    "main.js": "./static/js/main.2421e942.js",
+    "static/media/BATMAN  _ Trailer 2 Oficial Legendado _ DC FanDome 2021.mp4": "./static/media/BATMAN  _ Trailer 2 Oficial Legendado _ DC FanDome 2021.5235a07b1c2c2d15cf3d.mp4",
+    "static/media/batmanfundo.jpg": "./static/media/batmanfundo.80a30603404f1b0050b0.jpg",
+    "static/media/fundo batman.jpg": "./static/media/fundo batman.1212aaec1858c1922a9d.jpg",
+    "static/media/logobat.jpg": "./static/media/logobat.d97683f80b2034fa2658.jpg",
+    "index.html": "./index.html",
+    "main.1cdcb17d.css.map": "./static/css/main.1cdcb17d.css.map",
+    "main.2421e942.js.map": "./static/js/main.2421e942.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cdcb17d.css",
+    "static/js/main.2421e942.js"
+  ]
+}
